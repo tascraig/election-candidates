@@ -32,7 +32,7 @@ This project includes the following features:
 
 - **Components**: Use `Card.jsx` to create each candidate's card. Each card should appear on a type of list component or use the `List.jsx` provided.
   
-- **SASS**: Card should be styled close to the example provided above. 
+- **CSS**: Card should be styled close to the example provided above. The use of SASS/BEM is highly encouraged. 
 
 - **Data Array**: Loop through the array of candidate names to display each candidate on a card.
 
