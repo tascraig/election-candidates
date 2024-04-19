@@ -1,9 +1,18 @@
-import React from 'react'
+// Card.jsx
 
-const Card = () => {
+import React from 'react'
+import './card.css'
+import profilePic from '../assets/person.jpg'
+
+const Card = ({ name }) => {
   return (
-    <div>Card</div>
+    <div className='card-container'>
+      <div className='card'>
+        <img src={profilePic} alt="Candidate Profile Picture" className='profilepic' />
+        <p className='name'>{name}</p> {/* Use the name prop here */}
+      </div>  
+    </div>
   )
 }
 
-export default Card
+export default Card;

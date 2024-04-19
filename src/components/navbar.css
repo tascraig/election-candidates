@@ -1,0 +1,14 @@
+/* navbar.css */
+
+.navbar {
+    background-color: #012A5D;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+}

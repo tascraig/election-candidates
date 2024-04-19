@@ -1,6 +1,10 @@
-import React from 'react'
+// Candidates.jsx
 
-const List = () => {
+import React from 'react'
+import Card from './Card'
+import './candidates.css'
+
+const Candidates = () => {
     const candidateNames = [
         "William Cotter", "Patrick Denman", "George Devolder-Santos", "Ryan Kalata",
         "John Avlon", "Saint Jermaine Endeley", "Nancy Goroff", "Nicholas J. LaLota",
@@ -12,9 +16,13 @@ const List = () => {
         "Sean Patrick Maloney", "Chris Jacobs", "Joe Morelle"
     ];
 
-  return (
-    <div>List</div>
-  )
-}
+    return (
+      <div className='candidates-container'>
+          {candidateNames.map((name, i) => (
+              <Card key={i} name={name} /> 
+          ))}
+      </div>
+  );
+};
 
-export default List
+export default Candidates;

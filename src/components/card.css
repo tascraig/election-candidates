@@ -1,0 +1,30 @@
+/* card.css */
+
+.card-container {
+    padding: 25px;
+   
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+    border: none;
+    box-shadow: 12px 14px 15px -3px rgba(0,0,0,0.1);
+}
+
+.profilepic {
+    width: 80%;
+    height: 70%;
+    justify-self: center;
+}
+
+.name {
+    display: grid;
+    text-align: center;
+    bottom: 10px;
+}

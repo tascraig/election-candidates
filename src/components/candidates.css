@@ -1,0 +1,26 @@
+/* candidates.css */
+
+.candidates-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;
+    background-color: #E1D5D3; 
+}
+
+.card-container {
+    flex: auto; 
+    
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        flex: auto; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card-container {
+        flex: auto; 
+    }
+}
